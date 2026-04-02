@@ -4,7 +4,7 @@
 **MiniDrive: 조직 내 협업 가속화를 위한 클라우드 기반 통합 파일 관리 시스템**
 
 ## 2. 개발 시스템 명칭
-**Cloud-Native File Management System**
+**Cloud File Management System**
 
 ## 3. 개발 시스템 설명 (System Overview)
 이 시스템은 프로젝트 기반의 협업 환경의 파일 공유 과정에서 발생할 수 있는 버전 관리의 어려움과 분산된 파일등을 정리하고 접근하게 쉽도록 관리할 수 있도록 하는 중앙관리 기반의 클라우드 공유 시스템이다.

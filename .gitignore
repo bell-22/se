@@ -1,0 +1,33 @@
+# mac OS 시스템 파일
+.DS_Store
+
+# IDE/환경 설정
+.idea/
+.vscode/
+*.iml
+misc.xml
+modules.xml
+workspace.xml
+
+# 언어 및 빌드 관련
+*.class
+*.exe
+*.o
+*.so
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 환경변수
+.env
+.env.local
+
+# 로그 및 임시 파일
+*.log
+tmp/
+
+# 보안 폴더
+memo/

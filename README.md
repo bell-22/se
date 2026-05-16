@@ -7,4 +7,4 @@ SE test
 * 품질 요소 추정서: [`doc/quality_factors.md`](./doc/quality_factors.md)
 * 프로젝트 관리 계획서 : [`doc/project_management_plan.md`](./doc/project_management_plan.md)
 * 요구사항 정의서 : [`doc/requirements_definition.md`](./doc/requirements_definition.md)
-* 요구사항 분석서 : [`doc/Requirements_Analysis.md`](./doc/Requirements_Analysis.md)
+* 요구사항 분석서 : [`doc/requirements_analysis.md`](./doc/requirements_analysis.md)

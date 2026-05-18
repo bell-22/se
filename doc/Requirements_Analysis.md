@@ -321,6 +321,39 @@
 
 ---
 
+**Use Case Name:** 공유링크 파일 조회하기 &nbsp;&nbsp; **ID:** UC-08 &nbsp;&nbsp; **Importance Level:** Medium
+
+**Primary Actor:** 외부 시스템
+
+**Use Case Type:** Detail, Essential
+
+**Brief Description:** 외부인이 공유 링크 URL로 접근하여 파일을 열람하거나 다운로드한다.
+
+**Stakeholders and Interests**
+- 외부 사용자: 공유받은 링크를 통해 파일을 열람하거나 다운로드하길 원한다.
+
+**Trigger:** 외부인이 공유 링크 URL에 접속한다.
+
+**Relationships**
+- Association: 외부 시스템
+- Include:
+- Extend:
+- Generalization:
+
+**Normal Flow of Events:**
+1. 외부인이 공유 링크 URL에 접속한다.
+2. 시스템은 링크의 유효성(만료 여부, 활성화 여부)을 확인한다.
+3. 시스템은 해당 파일을 열람 화면으로 출력한다.
+4. 외부인은 파일을 열람하거나 다운로드한다.
+
+**Subflows:**
+
+**Alternate / Exceptional Flows:**
+- 2.a1: 링크가 만료된 경우 시스템은 "만료된 링크입니다." 메시지를 출력한다.
+- 2.a2: 링크가 비활성화된 경우 시스템은 "유효하지 않은 링크입니다." 메시지를 출력한다.
+
+---
+
 ## 3. 요구사항 명세
 
 ### 3.1 정적 분석
@@ -638,6 +671,7 @@ MiniDrive 시스템의 주요 클래스와 클래스 간 관계를 나타낸다.
 - 최은만, 『소프트웨어 공학』, 생능출판사
 - 시스템정의서_260330_Doc-001
 - 요구사항정의서_260500_Doc-004
+- ch08_객체지향 분석
 
 ### 부록
 
